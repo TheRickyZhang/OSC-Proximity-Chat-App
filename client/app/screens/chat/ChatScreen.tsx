@@ -17,6 +17,7 @@ import { useSocket } from "../../contexts/SocketContext";
 import { AuthStore } from "../../services/AuthStore";
 import { Message } from "../../types/Message";
 import { useState, useEffect } from "react";
+import React from "react";
 
 const ChatScreen = () => {
   const settings = useSettings();
